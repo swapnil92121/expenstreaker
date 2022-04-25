@@ -1,10 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import { Header } from "./Components/Header"
+import { Home } from "./Pages/Home"
+import {BrowserRouter,Routes,Route} from 'react-router-dom'
+import { AddExpense } from "./Pages/AddExpense"
 
-function App() {
+
+export const App = () => {
   return (
-   
-  );
+    <>
+      <div>
+        <Header />
+        <BrowserRouter>
+          <Routes>
+            <Route path="/" element={<Home/>}/>
+            <Route path="/add-expense" element={<AddExpense/>}/>
+          </Routes>
+        </BrowserRouter>
+        <h1>Footer</h1>
+      </div>
+    </>
+  )
 }
-
-export default App;

@@ -1,0 +1,12 @@
+body{
+    background-color: rgb(231, 238, 238);
+    color: #001f3f;
+}
+
+#root{
+    font-family: 'Noto Sans', sans-serif;
+    margin: auto;
+}
+.Home{
+    width: 50%;
+}
