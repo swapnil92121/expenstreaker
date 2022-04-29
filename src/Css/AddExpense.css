@@ -124,3 +124,17 @@
     display: flex;
     justify-content: center;
 }
+.category-container {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    flex-direction: column;
+    background: #fff;
+}
+.category-item {
+    width: 98%;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    cursor: pointer;
+}

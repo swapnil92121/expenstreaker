@@ -1,3 +1,4 @@
+import { ExpenceList } from '../Components/ExpenceList'
 import { TopFold } from '../Components/TopFold'
 import '../Css/Home.css'
 
@@ -7,7 +8,7 @@ export const Home = () => {
             <center>
                 <div className='Home'>
                     <TopFold />
-                    <h1>ExpenceList</h1>
+                    <ExpenceList/>
                 </div>
             </center>
         </>
